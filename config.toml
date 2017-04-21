@@ -1,0 +1,16 @@
+languageCode = "en-us"
+title = "My New Hugo Site"
+contentDir = "content"
+layoutDir = "layouts"
+publishDir = "public"
+[indexes]
+	category = "categories"
+	tag = "tags"
+[author]
+	name = "aarjan baskota"
+[permalinks]
+	page = "/:title/"
+	about = "/:filename/"
+
+
+
